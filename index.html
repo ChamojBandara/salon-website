@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pearl Styles - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+        /* Additional styling for the back-to-top button */
+        #backToTopBtn {
+            display: none; /* Hidden by default */
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 50;
+        }
+    </style>
+
+
+</head>
+<body class="bg-gray-50">
+
+<!-- Navbar -->
+    <nav class="bg-white shadow-lg sticky top-0">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-2xl font-bold text-indigo-600">NIYORA</div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="index.html" class="text-gray-600 hover:text-indigo-600 text-lg">Home</a>
+                    <a href="services.html" class="text-gray-600 hover:text-indigo-600 text-lg">Services</a>
+                    <a href="book.html" class="text-gray-600 hover:text-indigo-600 text-lg">Book Now</a>
+                    <a href="about.html" class="text-gray-600 hover:text-indigo-600 text-lg">About Us</a>
+                    <a href="gallery.html" class="text-gray-600 hover:text-indigo-600 text-lg">Gallery</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-indigo-600 text-lg">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Hero Section -->
+    <section class="relative">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <img src="saloon.jpg" alt="Salon Interior" class="w-full h-screen object-cover">
+        <div class="absolute inset-0 flex items-center justify-center">
+            <div class="text-center text-white">
+                <h1 class="text-5xl font-bold mb-6">Experience Luxury at Salon Niyora</h1>
+                <p class="text-lg mb-6">Where Beauty Meets Elegance</p>
+                <a href="book.html" class="bg-indigo-600 hover:bg-indigo-800 text-white font-bold py-3 px-8 rounded-lg">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Why Choose Us</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <!-- Card 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                    <img src="stylists.jpg" alt="Expert Stylists" class="w-full h-48 object-cover rounded-t-lg">
+                    <h3 class="text-2xl font-bold text-gray-800 mt-4">Expert Stylists</h3>
+                    <p class="mt-2 text-gray-600">Our team of professional stylists ensures you always look your best.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                    <img src="luxury.jpg" alt="Luxury Interior" class="w-full h-48 object-cover rounded-t-lg">
+                    <h3 class="text-2xl font-bold text-gray-800 mt-4">Luxury Experience</h3>
+                    <p class="mt-2 text-gray-600">We provide a relaxing, luxury experience tailored to your needs.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                    <img src="products.jpg" alt="Premium Products" class="w-full h-48 object-cover rounded-t-lg">
+                    <h3 class="text-2xl font-bold text-gray-800 mt-4">Premium Products</h3>
+                    <p class="mt-2 text-gray-600">We only use high-quality, trusted grooming products for the best results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Services Section -->
+<section class="py-16 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Our Featured Services</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+            <!-- Service 1: Haircuts -->
+            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                <img src="hair.jpg" alt="Haircuts" class="w-full h-48 object-cover rounded-t-lg">
+                <h3 class="text-2xl font-bold text-gray-800 mt-4">Precision Haircuts</h3>
+                <p class="mt-2 text-gray-600">Custom haircuts for both men and women, from classic styles to trendy cuts.</p>
+                <p class="mt-4 text-indigo-600 font-bold">Starting at $20</p>
+            </div>
+            <!-- Service 2: Hair Coloring -->
+            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                <img src="color.jpg" alt="Hair Coloring" class="w-full h-48 object-cover rounded-t-lg">
+                <h3 class="text-2xl font-bold text-gray-800 mt-4">Professional Hair Coloring</h3>
+                <p class="mt-2 text-gray-600">Expert color services including balayage, highlights, and root touch-ups.</p>
+                <p class="mt-4 text-indigo-600 font-bold">Starting at $40</p>
+            </div>
+            <!-- Service 3: Beard Grooming -->
+            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                <img src="brooming.jpg" alt="Beard Grooming" class="w-full h-48 object-cover rounded-t-lg">
+                <h3 class="text-2xl font-bold text-gray-800 mt-4">Beard Trimming & Grooming</h3>
+                <p class="mt-2 text-gray-600">Get the perfect beard shape with our detailed trimming and grooming services.</p>
+                <p class="mt-4 text-indigo-600 font-bold">Starting at $15</p>
+            </div>
+            <!-- Service 4: Spa Treatments -->
+            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                <img src="spa.jpg" alt="Spa Treatments" class="w-full h-48 object-cover rounded-t-lg">
+                <h3 class="text-2xl font-bold text-gray-800 mt-4">Luxury Spa Treatments</h3>
+                <p class="mt-2 text-gray-600">Relax and rejuvenate with our selection of facials, massages, and more.</p>
+                <p class="mt-4 text-indigo-600 font-bold">Starting at $50</p>
+            </div>
+            <!-- Service 5: Bridal & Event Styling -->
+            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                <img src="bridal.jpg" alt="Bridal Styling" class="w-full h-48 object-cover rounded-t-lg">
+                <h3 class="text-2xl font-bold text-gray-800 mt-4">Bridal & Event Styling</h3>
+                <p class="mt-2 text-gray-600">Elegant and personalized hair styling for weddings, parties, and events.</p>
+                <p class="mt-4 text-indigo-600 font-bold">Starting at $100</p>
+            </div>
+            <!-- Service 6: Nail Care -->
+            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                <img src="nail.jpg" alt="Nail Care" class="w-full h-48 object-cover rounded-t-lg">
+                <h3 class="text-2xl font-bold text-gray-800 mt-4">Manicures & Pedicures</h3>
+                <p class="mt-2 text-gray-600">Complete nail care with manicure and pedicure treatments for healthy, beautiful nails.</p>
+                <p class="mt-4 text-indigo-600 font-bold">Starting at $30</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Testimonials Section -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">What Our Clients Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <p class="text-gray-600">"Amazing service! The stylists were professional and knew exactly what I wanted."</p>
+                    <p class="mt-4 text-indigo-600 font-bold">- Rasith Abeywickrama</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <p class="text-gray-600">"I love the ambiance at Pearl Styles. It’s relaxing and the staff is very friendly.Good coustomer Service."</p>
+                    <p class="mt-4 text-indigo-600 font-bold">- Supu Bandara</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="bg-indigo-600 py-12">
+        <div class="max-w-7xl mx-auto text-center text-white">
+            <h2 class="text-4xl font-bold">Ready for a Transformation?</h2>
+            <p class="mt-4 text-lg">Book your appointment today and enjoy an unforgettable salon experience.</p>
+            <a href="#" class="mt-6 inline-block bg-white text-indigo-600 font-bold py-3 px-8 rounded-lg">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-8">
+        <div class="max-w-7xl mx-auto text-center text-white">
+            <p class="mb-4">&copy; 2024 Pearl Styles. All rights reserved.</p>
+            <p><strong>Contact Us:</strong></p>
+            <p>Phone: 0768429896 | Email: <a href="mailto:rasithprabatha90@gmail.com" class="underline">rasithprabatha90@gmail.com</a></p>
+            <p>Address: School Junction, Pitipana South, Homagama, Sri Lanka</p>
+        </div>
+    </footer>
+
+<!-- Back to Top Button -->
+    <button id="backToTopBtn" onclick="scrollToTop()" class="bg-indigo-600 text-white font-bold py-2 px-4 rounded-lg shadow-lg">
+        ↑ 
+    </button>
+
+    <script>
+        // Show or hide the back-to-top button when scrolling
+        window.onscroll = function() {
+            const backToTopBtn = document.getElementById("backToTopBtn");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopBtn.style.display = "block";
+            } else {
+                backToTopBtn.style.display = "none";
+            }
+        };
+
+        // Scroll to the top of the page when the button is clicked
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        }
+    </script>
+
+
+</body>
+</html>
